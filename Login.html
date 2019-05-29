@@ -24,57 +24,38 @@
 			  -moz-background-size: cover;
 			  -ms-background-size: cover;
 			}
+			.login_cell {
+				border-style: solid 0rem;
+				background-color: #E5E5E5;
+				width: 40%;
+				height: 45%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+			}
 		</style>
-		<div class="container" style="margin-top: 10%;">
-			<div class="row">
-				<div class="col-md-4">
-					<h1 style="color: white;" >信息资产管理系统</h1>
-				</div>
-			</div>
-<!-- 		</div>
-		<div class="container"> -->
-			
-			<div class="row">
-				<div class="col-md-2">
-					<h3 style="color: white; font-size: medium;">用户名</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-2">
-					<div class="form-group">
-						<input class="form-control" style="width: 200px; height: 30px;" type="text" placeholder="请输入用户名"/>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-2">
-					<h3 style="color: white; font-size: medium;">密码</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-2">
-					<div class="form-group">
-						<input class="form-control" style="width: 200px; height: 30px;" type="password" placeholder="请输入密码"/>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="col-md-2">
-						<div class="btn-group">
-							<button class="btn btn-group" type="submit">登陆</button>
-						</div>
-					</div>
-					<div class="col-md-2">
-						<div class="btn-group">
-							<button class="btn btn-default" type="button">忘记密码</button>
-						</div>
-					</div>
+		<div class="login_cell">
+			<h2 class="text-center">资产管理系统</h2>
+			<div>
+				<form class="form-group">
+					<label></label>
+					<input type="text" class="form-control" placeholder="请输入用户名:" />
+					<label></label>
+					<input type="password" class="form-control" placeholder="请输入密码" />
+					<label></label>
+					<center>
+						<button type="button" class="btn btn-default" style="width: 99%; background-color: #66AFE9;">
+							<a style="font-family: "微软雅黑" >登陆</a>
+						</button>
+					</center>
+					<label></label>
+					<p></p>
+					<a>忘记密码</a>
+				</form>
 			</div>
 		</div>
-		
 	</body>
 </html>
